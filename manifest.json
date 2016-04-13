@@ -1,0 +1,26 @@
+{
+  "name": "Simple COM Port",
+  "description": "COM port toolkit(sample Chrome app)",
+  "version": "0.1",
+  "icons": {
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "31.0",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "permissions": 
+  [
+    "serial",
+    "fullscreen",
+    "alarms",
+    "browser",
+    "clipboardWrite"
+  ]
+  
+}
