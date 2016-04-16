@@ -1,3 +1,47 @@
 #cnvs {
       border: #000000 1px solid;
 }
+
+#connection {
+    position: absolute;
+    font-size: 24px;
+    left: 500px;
+    top: 10px;
+    color: #333;
+}
+
+#rightmovearea {
+	position: absolute;
+	left: 500px;
+	top: 240px;
+}
+
+#leftarea {
+	position: absolute;
+	left: 500px;
+	top: 280px;
+}
+
+#uparea {
+	position: absolute;
+	left: 620px;
+	top: 240px;
+}
+
+#downarea {
+	position: absolute;
+	left: 620px;
+	top: 280px;
+}
+
+#h2 {
+	position: absolute;
+	left: 500px;
+	top: 200px;
+}
+
+#reversearea {
+	position: absolute;
+	left: 500px;
+	top: 300px;	
+}
